@@ -17,6 +17,7 @@ h2 {
     font-weight: 700;
     text-align: center;
     padding-top: 2%;
+    color: #F5F5F5;
 }
 
 h3 {
@@ -24,6 +25,7 @@ h3 {
     line-height: 155%;
     padding: 5% 0;
     font-weight: 400;
+    color: #F5F5F5;
 }
 
 p {
@@ -79,7 +81,7 @@ a:hover#menu-icon {
 }
 
 ul {
-    list-style: none;
+    list-style-type: none;
 }
 
 nav ul li {
@@ -116,7 +118,6 @@ nav ul li a:hover {
 .one-fourth {
     width: 25%;
     float: left;
-    height: 220px;
     text-align: center;
 }
 
@@ -140,4 +141,114 @@ nav ul li a:hover {
     color: #f0f0f0;
     font-size: 500%;
     padding: 13% 0 4% 0;
+}
+
+.inner-wrapper {
+    float: left;
+    width: 100%;
+    background-color: #C3D7DF;
+}
+
+article {
+    float: left;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+}
+
+#tablet {
+    background-color: #C3D7DF;
+}
+
+aside {
+    float: right;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+}
+
+#tablet2 {
+    background-color: #A2B1C1;
+}
+
+#mobile {
+    background-color: #BEB9AD;
+}
+
+#desktop {
+    background-color: #F1AA90;
+}
+
+.inner-wrapper-2 {
+    float: left;
+    width: 100%;
+    background-color: #C3D7DF;
+}
+
+.inner-wrapper-3 {
+    float: left;
+    width: 100%;
+    background-color: #AADCD2;
+}
+
+.one-third {
+    width: 33.333333%;
+    float: left;
+    text-align: center;
+}
+
+#google {
+    background-color: #A2B1C1;
+}
+
+#marketing {
+    background-color: #BEB9AD;
+}
+
+#customers {
+    background-color: #AADCD2;
+}
+
+#smiley {
+    background-color: #AADCD2;
+    padding: 0 0 1%;
+    clear: both;
+}
+
+footer {
+    background-color: #6991AC;
+    width: 100%;
+}
+
+.social {
+    list-style-type: none;
+    text-align: center;
+}
+
+.social li {
+    display: inline;
+}
+
+.social i {
+    font-size: 460%;
+    margin: 1%;
+    padding: 5% 5% 5% 4%;
+    color: #C3D7DF;
+}
+
+.social i:hover {
+    color: #F5F5F5;
+}
+
+footer.second {
+    border-top: 1px solid #AADCD2;
+    background-color: #544B59;
+    max-height: 55px;
+    text-align: center;
+    margin: 0;
+}
+
+footer.second p {
+    padding: 5px 0 9px 0;
+    text-align: center;
 }
