@@ -31,3 +31,23 @@ ul.nav {
 .btn-lg {
     font-size: 36px;
 }
+
+.homepage {
+    text-align: center;
+}
+
+.homepage h2,
+.homepage p a {
+    color: #e74c3c;
+}
+
+.homepage hr {
+    border: 1px solid #e74c3d;
+    width: 160px;
+    margin-top: 15px;
+}
+
+.homepage p {
+    font-size: 21px;
+    font-weight: 300;
+}
