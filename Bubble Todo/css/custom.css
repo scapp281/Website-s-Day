@@ -1,0 +1,11 @@
+html,
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    border-left: 2px solid #00f28f;
+    padding: 0 0 0 5px;
+    font-size: 30px;
+    font-weight: 400;
+}
