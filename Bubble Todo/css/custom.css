@@ -9,3 +9,61 @@ h1 {
     font-size: 30px;
     font-weight: 400;
 }
+
+.main {
+    margin: 80px 0 0 0;
+}
+
+form input {
+    background: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    font-size: 26px;
+    border: 1px solid #4da8dc;
+}
+
+
+/** remove default border when click and add glowing blue*/
+
+form input:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(81, 203, 238, 1);
+    border: 1px solid rgba(81, 203, 238, 1);
+    padding: 10px 0 10px 20px;
+    background: #fff;
+    transition: background 2s;
+}
+
+button.btn {
+    /*    background: transparent;*/
+    border: none;
+    color: #00f28f;
+    cursor: pointer;
+    font-size: 36px;
+    padding: 5px 24px;
+}
+
+button.btn:hover {
+    background: #00f28f;
+    color: #fff;
+    transition: background 1s, color 2s;
+}
+
+.comments {
+    margin: 20px 0 0 0;
+    list-style: none;
+    padding-left: 0px;
+}
+
+li {
+    padding-left: 20px;
+    border-left: 2px solid #000;
+    font-size: 20px;
+    margin: 10px 36px;
+}
+
+ul li:nth-child(odd) {
+    background-color: #bbbbff;
+}
