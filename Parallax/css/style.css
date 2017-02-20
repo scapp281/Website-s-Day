@@ -1,14 +1,35 @@
-.bird-box{
+body {
+    font-family: "Open Sans", sans-serif;
+}
+h1 {
+    color: #ccc;
+    font-weight: 300;
+}
+figure {
+    margin: auto;
+}
+.content article {
+    padding: 100px 0;
+    max-width: 640px;
+    margin: 0 auto;
+    text-align: center;
+}
+img {
+    max-width: 100%;
+}
+
+/*header*/
+
+.bird-box {
     position: relative;
     height: 600px;
     background-image: url("../images/bird-bg.jpg");
     background-size: auto 600px;
-    background-attachment: fixed;  
-    
-    overflow: hidden;  /* hide the overflow of fore bird*/
+    background-attachment: fixed;
+    overflow: hidden;
+    /* hide the overflow of fore bird*/
 }
-
-.logo{
+.logo {
     height: 100px;
     width: 100%;
     background-image: url(../images/black-bird-logo.svg);
@@ -18,8 +39,7 @@
     top: 50%;
     margin-top: -50px;
 }
-
-.fore-bird{
+.fore-bird {
     width: 960px;
     height: 733px;
     background: url(../images/fore-bird.png) right bottom no-repeat;
@@ -27,10 +47,8 @@
     left: 50%;
     margin-left: -480px;
     margin-top: 380px;
-    
 }
-
-.back-bird{
+.back-bird {
     width: 960px;
     height: 298px;
     background: url(../images/back-bird.png) top left no-repeat;
@@ -39,6 +57,48 @@
     margin-left: -480px;
 }
 
-section{
+/**Landing Element*/
+
+.clothes-pics {
+    margin-bottom: 100px;
+}
+.clothes-pics figure {
+    margin-bottom: 20px;
+    position: relative;
+    opacity: 0;
+    transform: translateX(30px);
+    transition: all 2.5s ease-in-out;
+    overflow: hidden;
+    cursor: pointer;
+}
+.clothes-pics figure.is-showing {
+    opacity: 1;
+    transform: translateX(0px);
+}
+.clothes-pics figure img {
+    display: block;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+}
+
+/**Showing caption inside picture */
+
+.clothes-pics figcaption {
+    position: absolute;
+    bottom: 10px;
+    left: -100%;
+    background: black;
+    color: white;
+    padding: 2px 8px;
+    font-size: 11px;
+}
+.clothes-pics figure:hover figcaption {
+    left: 0%;
+    transition: all 0.5s ease-in-out;
+}
+.clothes-pics figure:hover img {
+    transform: scale(1.1);
+}
+section {
     height: 1000px;
 }
