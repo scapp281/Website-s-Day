@@ -1,0 +1,11 @@
+.bird-box{
+    position: relative;
+    height: 600px;
+    background-image: url("../images/bird-bg.jpg");
+    background-size: auto 600px;
+    background-attachment: fixed;  /**important factor to make content cover the image**/
+}
+
+section{
+    height: 1000px;
+}
