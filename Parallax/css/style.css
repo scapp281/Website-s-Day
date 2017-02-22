@@ -1,22 +1,27 @@
 body {
     font-family: "Open Sans", sans-serif;
 }
+
 h1 {
     color: #ccc;
     font-weight: 300;
 }
+
 figure {
     margin: auto;
 }
+
 .content article {
     padding: 100px 0;
     max-width: 640px;
     margin: 0 auto;
     text-align: center;
 }
+
 img {
     max-width: 100%;
 }
+
 
 /*header*/
 
@@ -29,6 +34,7 @@ img {
     overflow: hidden;
     /* hide the overflow of fore bird*/
 }
+
 .logo {
     height: 100px;
     width: 100%;
@@ -39,6 +45,7 @@ img {
     top: 50%;
     margin-top: -50px;
 }
+
 .fore-bird {
     width: 960px;
     height: 733px;
@@ -48,6 +55,7 @@ img {
     margin-left: -480px;
     margin-top: 380px;
 }
+
 .back-bird {
     width: 960px;
     height: 298px;
@@ -57,11 +65,13 @@ img {
     margin-left: -480px;
 }
 
-/**Landing Element*/
+
+/*Landing Element*/
 
 .clothes-pics {
     margin-bottom: 100px;
 }
+
 .clothes-pics figure {
     margin-bottom: 20px;
     position: relative;
@@ -71,17 +81,20 @@ img {
     overflow: hidden;
     cursor: pointer;
 }
+
 .clothes-pics figure.is-showing {
     opacity: 1;
     transform: translateX(0px);
 }
+
 .clothes-pics figure img {
     display: block;
     transform: scale(1);
     transition: all 0.3s ease-in-out;
 }
 
-/**Showing caption inside picture */
+
+/*Showing caption inside picture */
 
 .clothes-pics figcaption {
     position: absolute;
@@ -92,20 +105,71 @@ img {
     padding: 2px 8px;
     font-size: 11px;
 }
+
 .clothes-pics figure:hover figcaption {
     left: 0%;
     transition: all 0.5s ease-in-out;
 }
+
 .clothes-pics figure:hover img {
     transform: scale(1.1);
 }
+
 
 /*Periscope*/
 
 .large-window {
     height: 640px;
-    background: url('../images/model2.jpg') top center no-repeat;
+    background: url('../images/model2.jpg') center 0px repeat-y;
     background-attachment: fixed;
     margin-top: 100px;
     border-radius: 50%;
+    position: relative;
+}
+
+.large-window .window-tint {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.large-window .promo-text {
+    color: white;
+    font-weight: 100;
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+.large-window .promo-text strong {
+    display: block;
+    font-size: 30px;
+}
+
+.large-window .promo-text span {
+    font-weight: 300;
+    font-size: 18px;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.large-window .promo-text .window-cta {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.large-window .promo-text .window-cta:hover {
+    background: white;
+    color: black;
 }
