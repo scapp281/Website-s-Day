@@ -1,0 +1,155 @@
+* {
+    margin: 0px;
+    font-family: 'lucida grande';
+}
+#header {
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 100.07%;
+    height: 103px;
+    background-color: rgb(59, 89, 152);
+}
+#headerBox {
+    width: 1000px;
+    height: 90px;
+    margin: 0px auto;
+}
+#headerLogo {
+    font-size: 250%;
+    color: white;
+    font-weight: 600;
+    margin-top: 20px;
+    float: left;
+}
+#headerLogin {
+    float: right;
+    margin-top: 20px;
+}
+#email,
+#password {
+    display: inline-block;
+    margin-right: 5px;
+}
+#loginText {
+    margin-bottom: 5px;
+}
+#loginText,
+input[type="button"] {
+    color: white;
+    font-size: 14px;
+}
+#forget {
+    color: rgb(156, 180, 216);
+    margin-bottom: 3px;
+    font-size: 15px;
+    margin-left: 158px;
+    margin-top: 4px;
+}
+input[type="button"] {
+    background-color: rgba(59, 89, 152, 0.2);
+}
+input[type="button"]:hover {
+    cursor: pointer;
+    background-color: rgba(59, 89, 152, 0.498039);
+}
+body {
+    background: rgb(237, 240, 245);
+}
+#content {
+    width: 1000px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#right,
+#left {
+    width: 50%;
+    height: 100%;
+}
+#connect {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+#right {
+    float: right;
+}
+#left {
+    float: left;
+}
+span {
+    color: rgb(102, 102, 102);
+}
+#second,
+#third,
+#fourth {
+    margin-bottom: 40px;
+}
+.rightSideEmpty {
+    width: 5%;
+    height: 100%;
+    float: left;
+}
+.rightSideContent {
+    width: 95%;
+    height: 100%;
+}
+#rightSideText {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#rightSideTextBold {
+    font-size: 200%;
+    font-weight: bold;
+}
+rigthSideTextLight {
+    font-size: 150%;
+}
+.halfLine,
+.fullLine {
+    height: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    border-width: thin;
+    border-style: solid;
+    border-color: #bdc7d8;
+    margin-bottom: 10px;
+}
+.halfLine {
+    width: 45%;
+}
+.fullLine {
+    width: 92%;
+}
+#policy {
+    font-size: 11px;
+    color: #777;
+    width: 350px;
+}
+a {
+    color: #365899;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 11px;
+    max-width: 150px;
+}
+a:hover {
+    text-decoration: underline;
+}
+#signupFormButton {
+    width: 200px;
+    padding: 15px;
+    border-radius: 5px;
+    border-width: thin;
+    border-style: solid;
+    background-color: #69a74e;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+}
+.dropdownHeight {
+    font-size: 13px;
+    height: 30px;
+    padding: 5px;
+}
