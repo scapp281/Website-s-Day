@@ -1,0 +1,34 @@
+nav {
+  background: #485563;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #485563, #29323c);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #485563, #29323c);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+nav .brand-logo {
+  padding-left: 20px;
+}
+
+nav .brand-logo .author {
+  font-size: 36%;
+  padding-left: 5px
+}
+
+.divider-2 {
+  margin-top: 30px;
+}
+
+.divider {
+  margin: 30px;
+}
+
+.submit-btn {
+  background: #136a8a;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #136a8a, #267871);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #136a8a, #267871);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
