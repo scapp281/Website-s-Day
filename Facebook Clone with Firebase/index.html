@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Facebook</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <header id="header">
+        <div id="headerBox">
+            <div id="headerLogo">facebook</div>
+            <div id="headerLogin">
+                <form method="post">
+                    <div id="email">
+                        <div id="loginText">Email or phone</div>
+                        <input id="username" type="email" name="username">
+                    </div>
+                    <div id="password">
+                        <div id="loginText">Password</div>
+                        <input id="pwd" type="password" name="password">
+                        <input id="login" type="button" value="Log In">
+                    </div>
+                    <div id="forget">Forgot account?</div>
+                </form>
+            </div>
+        </div>
+    </header>
+    <div id="bodyContent">
+        <div id="content">
+            <div id="left">
+                <p id="connect">Connect with friends and the
+                    <br>world around you on Facebook.</p>
+                <div id="second">
+                    <img src="image/photo.png" alt="photo"> <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;See photos and updates</b> <span>&nbsp;&nbsp;from friends in News Feed.</span>
+                </div>
+                <div id="third">
+                    <img src="image/share.png" alt="share"> <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Share what's new</b> <span>&nbsp;&nbsp;in your life on your Timeline.</span>
+                </div>
+                <div id="fourth"><img src="image/more.png" alt="more"> <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Find more</b> <span>of what you're looking for with Facebook Search.</span></div>
+            </div>
+            <div id="right">
+                <div class="rightSideEmpty"></div>
+                <div class="rightSideContent">
+                    <div id="rightSideText">
+                        <div id="rightSideTextBold">
+                            Sign Up
+                        </div>
+                        <div id="rightSideTextLight">
+                            It’s free and always will be.
+                        </div>
+                    </div>
+                    <div id="rightSideForm">
+                        <form method="post">
+                            <input type="text" name="firstname" placeholder="First Name" class="halfLine">
+                            <input type="text" name="lastname" placeholder="Last Name" class="halfLine">
+                            <br>
+                            <input type="text" name="contact" placeholder="Email or mobile number" class="fullLine">
+                            <br>
+                            <input type="text" name="reenter" placeholder="Re-enter email or mobile number" class="fullLine">
+                            <br>
+                            <input type="password" name="password" placeholder="New password" class="fullLine">
+                            <br> Birthday
+                            <br>
+                            <br>
+                            <select class="dropdownHeight" name="birthmonth">
+                                <option value="none">Month</option>
+                                <option value="jan">Jan</option>
+                                <option value="feb">Feb</option>
+                                <option value="mar">Mar</option>
+                                <option value="apr">Apr</option>
+                                <option value="may">May</option>
+                                <option value="jun">Jun</option>
+                                <option value="jul">Jul</option>
+                                <option value="aug">Aug</option>
+                                <option value="sep">Sep</option>
+                                <option value="oct">Oct</option>
+                                <option value="nov">Nov</option>
+                                <option value="dec">Dec</option>
+                            </select>
+                            <select class="dropdownHeight" name="birthday">
+                                <option value="none">Day</option>
+                                <option value="01">1</option>
+                                <option value="02">2</option>
+                                <option value="03">3</option>
+                                <option value="04">4</option>
+                                <option value="05">5</option>
+                                <option value="06">6</option>
+                                <option value="07">7</option>
+                                <option value="08">8</option>
+                                <option value="09">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                                <option value="31">31</option>
+                            </select>
+                            <select class="dropdownHeight" name="birthyear">
+                                <option value="none">Year</option>
+                                <option value="1990">1990</option>
+                                <option value="1991">1991</option>
+                                <option value="1992">1992</option>
+                                <option value="1993">1993</option>
+                                <option value="1994">1994</option>
+                                <option value="1995">1995</option>
+                            </select>
+                            <a href="#">Why do I need to provide my birthday?</a>
+                            <br>
+                            <br>
+                            <input type="radio" name="gender" value="female" id="genderFemale"> Female
+                            <input type="radio" name="gender" value="male" id="genderMale"> Male
+                            <br>
+                            <br>
+                            <br>
+                            <p id="policy">By clicking Create Account, you agree to our <a href="#">Terms</a> and that you have read our <a href="#">Data Policy</a>, including our <a href="#">Cookie Use</a>. You may receive SMS Notifications from Facebook and can opt out at any time.</p>
+                            <br>
+                            <br>
+                            <button id="signupFormButton" type="button" onclick="checkForm(this.form)">Create Account</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <footer>
+        <div id="footer">
+            <div id="lang">
+                <a href="" class="active">English (US)</a>
+                <a href="">Español</a>
+                <a href="">Français (France)</a>
+                <a href="">中文(简体)</a>
+                <a href="">العربية</a>
+                <a href="">Português (Brasil)</a>
+                <a href="">Italiano</a>
+                <a href="">한국어</a>
+                <a href="">Deutsch</a>
+                <a href="">हिन्दी</a>
+                <a href="">日本語</a>
+            </div>
+            <hr>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><a href="">Sign up</a></td>
+                        <td><a href="">Log In</a></td>
+                        <td><a href="">Messenger</a></td>
+                        <td><a href="">Facebook Lite</a></td>
+                        <td><a href="">Mobile</a></td>
+                        <td><a href="">Find Friends</a></td>
+                        <td><a href="">People</a></td>
+                        <td><a href="">Pages</a></td>
+                        <td><a href="">Places</a></td>
+                        <td><a href="">Games</a></td>
+                        <td><a href="">Locations</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="">Celebrities</a></td>
+                        <td><a href="">Groups</a></td>
+                        <td><a href="">Moments</a></td>
+                        <td><a href="">Instagram</a></td>
+                        <td><a href="">About</a></td>
+                        <td><a href="">Create Ad</a></td>
+                        <td><a href="">Create Page</a></td>
+                        <td><a href="">Developers</a></td>
+                        <td><a href="">Careers</a></td>
+                        <td><a href="">Privacy</a></td>
+                        <td><a href="">Cookies</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="">Ad Choices</a></td>
+                        <td><a href="">Terms</a></td>
+                        <td><a href="">Help</a></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div id="logo">Facebook © 2017</div>
+        </div>
+
+    </footer>
+</body>
+<script src="js/jquery.min.js"></script>
+<script src="js/firebase.js"></script>
+<!--<script src="https://www.gstatic.com/firebasejs/3.7.0/firebase.js"></script>-->
+<script src="js/app.js"></script>
+<script src="js/functions.js"></script>
+
+<!--OPTIONAL-->
+<!--<script src="https://www.gstatic.com/firebasejs/3.6.10/firebase-auth.js"></script>-->
+<!--<script src="https://www.gstatic.com/firebasejs/3.6.10/firebase-database.js"></script>-->
+<!--<script src="https://www.gstatic.com/firebasejs/3.6.10/firebase-messaging.js"></script>-->
+<!-- <script src="https://www.gstatic.com/firebasejs/3.6.10/firebase-storage.js"></script> -->
+
+
+</html>

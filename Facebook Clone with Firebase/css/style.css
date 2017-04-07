@@ -2,6 +2,11 @@
     margin: 0px;
     font-family: 'lucida grande';
 }
+#headerWarning {
+    background-color: red;
+    color: white;
+    text-align: center;
+}
 #header {
     margin-left: 0px;
     margin-top: 0px;
@@ -52,7 +57,7 @@ input[type="button"]:hover {
     cursor: pointer;
     background-color: rgba(59, 89, 152, 0.498039);
 }
-body {
+#bodyContent {
     background: rgb(237, 240, 245);
 }
 #content {
@@ -122,10 +127,12 @@ rigthSideTextLight {
 .fullLine {
     width: 92%;
 }
+#logo,
 #policy {
     font-size: 11px;
     color: #777;
     width: 350px;
+    padding-top: 15px;
 }
 a {
     color: #365899;
@@ -152,4 +159,21 @@ a:hover {
     font-size: 13px;
     height: 30px;
     padding: 5px;
+}
+#footer {
+    background-color: white;
+    width: 1000px;
+    height: 150px;
+    margin: 0 auto;
+}
+td a,
+#lang a {
+    padding-left: 10px;
+}
+.active {
+    color: #777;
+}
+hr {
+    color: rgb(237, 240, 245);
+    margin-top: 5px;
 }
