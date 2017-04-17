@@ -1,21 +1,17 @@
-var config = {
-    apiKey: "AIzaSyDgAWcossegiFuJBN7k63LHmcD24xUiPOw",
-    authDomain: "facebook-clone-with-firebasse.firebaseapp.com",
-    databaseURL: "https://facebook-clone-with-firebasse.firebaseio.com",
-    storageBucket: "facebook-clone-with-firebasse.appspot.com",
-    messagingSenderId: "881789000386"
-};
+$(document).ready(function () {
+    var config = {
+        apiKey: "https://change-this-to-your-firebase.firebaseio.com/",
+        authDomain: "https://change-this-to-your-firebase.firebaseio.com/",
+        databaseURL: "https://change-this-to-your-firebase.firebaseio.com/",
+        storageBucket: "https://change-this-to-your-firebase.firebaseio.com/",
+        messagingSenderId: "https://change-this-to-your-firebase.firebaseio.com/"
+    };
 
-if (config.databaseURL == "https://change-this-to-your-firebase.firebaseio.com/") {
-    alert("請將MyFirebaseRef裡面的'change-this-to-your-firebase'部份換成自己的連結，然後你可以將這個alert刪除。")
-} else {
-    firebase.initializeApp(config);
-}
-// Initialize Firebase
-//    var config = {
-//        apiKey: "AIzaSyDgAWcossegiFuJBN7k63LHmcD24xUiPOw",
-//        authDomain: "facebook-clone-with-firebasse.firebaseapp.com",
-//        databaseURL: "https://change-this-to-your-firebase.firebaseio.com/",
-//        storageBucket: "facebook-clone-with-firebasse.appspot.com",
-//        messagingSenderId: "881789000386"
-//    };
+
+    if (config.databaseURL == "https://change-this-to-your-firebase.firebaseio.com/") {
+        window.location.assign('Public/change.html');
+    } else {
+        firebase.initializeApp(config);
+        window.location.assign('index.html');
+    }
+})
