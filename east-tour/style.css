@@ -1,0 +1,317 @@
+
+body {
+    background: url("Images/templatemo_body.jpg") repeat-x scroll center top #73AFD6;
+    color: #0D2D4B;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+a:link, a:visited {
+    color: #71950F;
+    font-weight: normal;
+    text-decoration: none;
+}
+a:active, a:hover {
+    color: #990000;
+    text-decoration: underline;
+}
+.button_01 a {
+    background: url("Images/templatemo_button.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    height: 21px;
+    padding: 3px 0 0;
+    text-align: center;
+    text-decoration: none;
+    width: 80px;
+}
+.button_01 a:hover {
+    background: url("Images/templatemo_button_hover.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #666666;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+img {
+    border: medium none;
+    margin: 0;
+    padding: 0;
+}
+.cleaner {
+    clear: both;
+    font-size: 0;
+    height: 0;
+    width: 100%;
+}
+.cleaner_h30 {
+    clear: both;
+    height: 30px;
+    width: 100%;
+}
+.cleaner_h40 {
+    clear: both;
+    height: 40px;
+    width: 100%;
+}
+.float_l {
+    float: left;
+}
+.float_r {
+    float: right;
+}
+#templatemo_wrapper_outter {
+    background: url("Images/templatemo_body_top.jpg") no-repeat scroll center top rgba(0, 0, 0, 0);
+    margin: 0 auto;
+    width: 100%;
+}
+#templatemo_wrapper_inner {
+    background: url("Images/templatemo_body_top.jpg") no-repeat scroll center top rgba(0, 0, 0, 0);
+    margin: 0 auto;
+    width: 1000px;
+}
+#templatemo_wrapper {
+    background: url("Images/template_content.png") repeat-y scroll center center rgba(0, 0, 0, 0);
+    padding: 0 10px;
+    width: 980px;
+}
+#templatemo_container {
+    background: url("Images/templatemo_content_top.jpg") no-repeat scroll center top rgba(0, 0, 0, 0);
+    padding: 30px 0;
+    width: 980px;
+}
+#templatemo_header {
+    padding: 0 30px;
+    margin-top: 20px;
+
+}
+#templatemo_header #header_left {
+    float: left;
+    height: 250px;
+    width: 570px;
+}
+#header_left #templatemo_menu {
+    background: url("Images/templatemo_menu.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    clear: both;
+    height: 44px;
+    width: 564px;
+}
+#templatemo_menu ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+#templatemo_menu ul li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+#templatemo_menu ul li a {
+    color: #00CCFF;
+    display: block;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    height: 20px;
+    margin-right: 10px;
+    outline: medium none;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+#templatemo_menu li a:hover, #templatemo_menu li .current {
+    color: #FFFFFF;
+}
+#header_left #site_title {
+    float: left;
+    margin: -90px 0 0 0px;
+    width: 400px;
+}
+
+#site_title #logo {
+    background:url(Images/EastCoastToursUS-LOGO.png) no-repeat scroll left top;
+    width:450px;
+    height:160px;
+    display: block;
+    float: left;
+    margin-top:-30px;
+}
+
+
+#templatemo_header #header_right {
+    background: url("Images/templatemo_login.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: right;
+    height: 154px;
+    overflow: hidden;
+    padding: 15px 20px;
+    width: 400px;
+}
+#templatemo_header #header_right h2 {
+    border-bottom: 1px solid #666666;
+    padding-bottom: 5px;
+}
+#templatemo_header #header_right form {
+    margin: 0;
+    padding: 0;
+}
+#templatemo_header #header_right form label {
+    display: block;
+    float: left;
+    margin-right: 10px;
+    margin-top: 3px;
+    text-align: right;
+    width: 80px;
+}
+.input_field {
+    color: #000000;
+    float: right;
+    font-size: 12px;
+    font-variant: normal;
+    height: 20px;
+    line-height: normal;
+    margin-bottom: 10px;
+    padding: 0 5px;
+    width: 160px;
+}
+#submit_btn {
+    cursor: pointer;
+    float: right;
+    font-size: 12px;
+    height: 25px;
+    outline: medium none;
+    padding: 0 0 10px;
+    text-align: center;
+    vertical-align: bottom;
+    white-space: pre;
+    width: 80px;
+}
+#templatemo_content_wrapper {
+    clear: both;
+    margin-bottom: 20px;
+    padding: 0 30px 0 15px;
+}
+#templatemo_content_outer {
+    background: url("Images/templatemo_main_content_top.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+    float: left;
+    padding: 30px 0 0;
+    width: 630px;
+}
+#templatemo_content {
+    background: url("Images/templatemo_main_content_middle.png") repeat-y scroll center center rgba(0, 0, 0, 0);
+    padding: 0 40px 20px;
+}
+#templatemo_content h2 {
+    color: #71950F;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 15px;
+}
+#templatemo_content .content_section {
+    border-bottom: 1px dotted #666666;
+    clear: both;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+#templatemo_content p {
+    margin-bottom: 10px;
+}
+#templatemo_content .em_text {
+    color: #0D2D4B;
+}
+#templatemo_content .featured_tour {
+    list-style: none outside none;
+    margin: 10px 0 0;
+    padding: 0;
+    width: 250px;
+}
+.featured_tour li {
+    margin: 0;
+    padding: 0;
+}
+.featured_tour li a {
+    border-bottom: 1px dotted #CCCCCC;
+    color: #71950F;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+}
+.featured_tour li a span {
+    color: #888888;
+    display: block;
+    font-weight: normal;
+}
+#templatemo_content_bottom {
+    background: url("Images/templatemo_main_content_bottom.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    height: 5px;
+    width: 630px;
+}
+#template_sidebar {
+    float: right;
+    padding-top: 20px;
+    width: 280px;
+}
+#template_sidebar .sidebar_section {
+    margin-bottom: 40px;
+}
+#template_sidebar h2 {
+    color: #000000;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    padding: 10px 0;
+}
+#template_sidebar h3 {
+    margin: 0 0 5px;
+}
+#template_sidebar p {
+    margin-bottom: 10px;
+}
+#template_sidebar .image_wrapper {
+    background: url("Images/image_wrapper2.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    height: 400px;
+    margin-bottom: 8px;
+    padding: 10px;
+    width: 260px;
+}
+#template_sidebar .image_wrapper img {
+    height: 120px;
+    width: 260px;
+}
+#templatemo_footer {
+    border-top: 1px solid #999999;
+    clear: both;
+    color: #666666;
+    margin: 0 auto;
+    padding: 30px 0 0;
+    text-align: center;
+    width: 920px;
+}
+#templatemo_footer a {
+    color: #135B9B;
+    font-weight: bold;
+}
+#templatemo_footer .footer_menu {
+    list-style: none outside none;
+    margin: 0 0 10px;
+    padding: 0;
+    text-align: center;
+}
+.footer_menu li {
+    border-right: 1px solid #AEA68C;
+    display: inline;
+    margin: 0;
+    padding: 0 20px;
+}
+.footer_menu li a {
+    color: #135B9B;
+}
+.footer_menu .last_menu {
+    border: medium none;
+}
