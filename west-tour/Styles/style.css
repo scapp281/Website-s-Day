@@ -1,0 +1,672 @@
+/* CSS Document */
+
+
+/*-------------------------------- Global properties -------------------------------- */
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: url(../Images/bg_body.jpg) center top repeat-x #33587d;
+    color: #292929;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: normal;
+    width: 100%;
+    min-width: 980px;
+    position: relative;
+    border-top: 5px #000 solid;
+}
+
+div.wrapper {
+    width: 100%;
+    position: relative;
+}
+
+div.content {
+    border-top: 10px #e7eeec solid;
+    background: url(../Images/bg_content.jpg) left top repeat;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+div.center {
+    width: 960px;
+    background-color: none;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'proxima_nova_rgregular';
+    font-size: 30px;
+    line-height: 30px;
+    color: #312a1c;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-family: 'proxima_nova_rgregular';
+    font-size: 24px;
+    line-height: 24px;
+    color: #312a1c;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+
+h3 {
+    font-family: 'proxima_nova_rgregular';
+    font-size: 20px;
+    line-height: 20px;
+    color: #312a1c;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+
+h4 {
+    font-family: 'proxima_nova_rgregular';
+    font-size: 18px;
+    line-height: 18px;
+    color: #312a1c;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+div.line {
+    background: url(../Images/bg_line.png) left top repeat-x;
+    height: 2px;
+    width: 100%;
+    margin: 20px 0 15px;
+}
+
+a.more {
+    color: #ffb100;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a.more:hover {
+    text-decoration: none;
+}
+
+a.link {
+    float: right;
+    color: #22788d;
+    font-family: 'proxima_nova_rgregular';
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a.link:hover {
+    text-decoration: none;
+    color: #ffae00;
+}
+
+a.link1 {
+    color: #2f8fc6;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a.link1:hover {
+    color: #2f8fc6;
+    text-decoration: none;
+}
+
+.blue {
+    color: #3892ce;
+}
+
+.yelow {
+    color: #ffae00;
+    font-weight: bold;
+}
+
+.left {
+    float: left!important;
+}
+
+.right {
+    float: right!important;
+}
+
+.clear {
+    clear: both;
+}
+
+.bold {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.paragraph {
+    margin-top: 6px;
+}
+
+
+/*==================== header ====================*/
+
+.header {
+    padding: 0 10px;
+}
+
+#logo {
+    float: left;
+}
+
+#logo a {
+    display: block;
+}
+
+ul.menu {
+    background: url(../Images/bg_menu.png) left top no-repeat;
+    width: 680px;
+    float: left;
+    height: 100px;
+    padding: 0;
+}
+
+.menu li {
+    float: left;
+    text-align: center;
+    width: 99px;
+}
+
+.menu li a {
+    background-color: none;
+    display: block;
+    float: left;
+    font-family: 'proxima_nova_rgregular';
+    font-size: 18px;
+    line-height: 14px;
+    color: #303132;
+    text-decoration: none;
+    padding: 20px 40px 20px;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+}
+
+.menu li a:hover,
+.menu li a:active {
+    background-color: #e26a22;
+    border-radius: 0 0 10px 10px;
+    color: #fff;
+    text-align: center;
+    padding: 20px 30px 40px;
+    font-style: normal;
+}
+
+
+/*==================== slider ====================*/
+
+.slider_box {
+    padding: 30px;
+}
+
+.big_slider {
+    background: #fff;
+    border: 1px #fff solid;
+    padding: 8px;
+    position: relative;
+    z-index: 0;
+}
+
+.slogan {
+    font-family: 'proxima_nova_rgregular';
+    position: absolute;
+    z-index: 1;
+    bottom: 40px;
+    left: 50px;
+    height: 96px;
+    width: 100%;
+    color: #fbfbfb;
+}
+
+.slogan p {
+    font-size: 34px;
+    line-height: 36px;
+    text-transform: none;
+    padding: 20px 16px 10px;
+}
+
+.slogan span {
+    font-size: 26px;
+    line-height: 26px;
+    text-transform: none;
+    padding: 20px 16px 10px;
+}
+
+.right_slider {
+    background: url(../Images/bg_right_slider.png) left top repeat-y;
+    width: 210px;
+    height: 355px;
+    position: absolute;
+    z-index: 1;
+    bottom: 9px;
+    right: 7px;
+    padding: 30px 50px 30px;
+}
+
+.right_slider p {
+    font-family: 'proxima_nova_rgregular';
+    color: #fbfbfb;
+    text-transform: none;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    padding: 20px 0 10px;
+}
+
+.right_slider span {
+    display: inline-block;
+    font-family: Helvetica, sans-serif, Arial;
+    color: #fbfbfb;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: none;
+}
+
+.right_slider a {
+    background: url(../Images/r_slider_button.png) left top no-repeat;
+    display: block;
+    width: 90px;
+    color: #211c10;
+    font-family: 'proxima_nova_rgregular';
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 12px;
+    text-decoration: none;
+    padding: 14px 12px;
+    margin-top: 40px;
+}
+
+.right_slider a:hover {
+    background: url(../Images/r_slider_button.png) left bottom no-repeat;
+    text-decoration: none;
+    padding: 14px 12px;
+}
+
+
+/* add*/
+
+.right_viewmore a {
+    background: url(../Images/r_slider_button.png) left top no-repeat;
+    display: block;
+    width: 100px;
+    color: #211c10;
+    font-family: 'proxima_nova_rgregular';
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 12px;
+    text-decoration: none;
+    padding: 14px 10px;
+    margin-top: 40px;
+}
+
+.right_viewmore a:hover {
+    background: url(../Images/r_slider_button.png) left bottom no-repeat;
+    text-decoration: none;
+    padding: 14px 12px;
+}
+
+a.enlarge img.img {
+    background: #fff;
+    border: 1px #ccc transparent;
+    padding: 5px;
+    float: left;
+    margin: 0 16px 18px 0;
+}
+
+.small_slider {
+    margin-top: 30px;
+    padding-left: 2px;
+}
+
+
+/*hover enlarge*/
+
+.small_slider img {
+    margin-right: 40px;
+    /*-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;*/
+    -moz-transition: -moz-transform 0.5s ease-in;
+    -webkit-transition: -webkit-transform 0.5s ease-in;
+    -o-transition: -o-transform 0.5s ease-in;
+    border-radius: 20px;
+}
+
+.small_slider img:hover {
+    /*width: 200px;
+  height: 118px;*/
+    -moz-transform: scale(2);
+    -webkit-transform: scale(2);
+    -o-transform: scale(2);
+}
+
+
+/*hover enlarge end*/
+
+.footer,
+footer_social {
+    background: #436357;
+    padding: 35px 0 50px;
+    margin-top: 60px;
+}
+
+.footer ul {
+    float: left;
+    width: 700px;
+}
+
+.footer li {
+    float: left;
+    width: 200px;
+    display: block;
+    font-size: 16px;
+    line-height: 25px;
+    text-decoration: none;
+    padding: 10px 30px 0 0;
+}
+
+.footer li img:hover,
+.footer_social li img:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer_social ul {
+    float: right;
+    width: 200px;
+}
+
+.footer_social li {
+    width: 22px;
+    padding: 7px 10px 0 0;
+}
+
+.policy {
+    font-family: Arial, sans-serif, Helvetica;
+    font-size: 12px;
+    line-height: 12px;
+    color: #fff;
+    float: left;
+    padding: 0 0 10px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.policy a {
+    text-transform: none;
+    color: #fff;
+    text-decoration: none;
+}
+
+.policy a:hover {
+    text-decoration: underline;
+}
+
+ul.services a {
+    text-decoration: none;
+}
+
+ul.services li {
+    display: block;
+    width: 650px;
+    background: url(../Images/bullet.png) left top no-repeat;
+    color: #21798e;
+    font-family: 'proxima_nova_rgregular';
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    text-decoration: none;
+    text-transform: none;
+    padding: 0 0 0 18px;
+    margin-bottom: 7px;
+}
+
+ul.services li:hover {
+    display: block;
+    width: 650px;
+    background: url(../Images/bullet.png) left bottom no-repeat;
+    color: #8181F7;
+    font-family: 'proxima_nova_rgregular';
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    text-decoration: none;
+    text-transform: none;
+    padding: 0 0 0 18px;
+    margin-bottom: 7px;
+    /* Shadow */
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
+
+
+/* `Grid >> Children (Alpha ~ First, Omega ~ Last)
+----------------------------------------------------------------------------------------------------*/
+
+.alpha {
+    margin-left: 0!important;
+}
+
+.omega {
+    margin-right: 0!important;
+}
+
+
+/* Grid >> (margin, padding)
+----------------------------------------------------------------------------------------------------*/
+
+.mb_40 {
+    margin-bottom: 40px;
+}
+
+.ml_40 {
+    margin-left: 40px;
+}
+
+.pt_10 {
+    padding-top: 10px;
+}
+
+.pt_30 {
+    padding-top: 30px;
+}
+
+.pt_40 {
+    padding-top: 40px;
+}
+
+
+/*----------------------------------------------------------------------------------------------------*/
+
+.grid_1 {
+    float: left;
+    width: 640px;
+}
+
+.grid_2 {
+    float: right;
+    width: 210px;
+    padding-top: 8px;
+}
+
+.grid_3 {
+    float: left;
+    width: 200px;
+    margin-right: 20px;
+}
+
+.grid_4 {
+    float: left;
+    width: 300px;
+    text-align: center;
+}
+
+
+/* hover enlarge*/
+
+.grid_4 img {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.grid_4 img:hover {
+    /*width: 190px;
+  height: 190px;*/
+    -moz-transform: scale(2);
+    -webkit-transform: scale(2);
+    -o-transform: scale(2);
+}
+
+
+/* hover enlarge end */
+
+
+/*grid link*/
+
+.grid_4 a {
+    text-decoration: none;
+}
+
+.grid_4 a:hover {
+    font-size: 16px;
+}
+
+.greybox li {
+    background: #F4F4F4;
+    display: inline;
+    border: 1px solid #bbbbbb;
+    margin: 0px 0px 4px 0px;
+    padding: 4px 6px 4px 6px;
+    width: 116px;
+    /* Rounded Corners */
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.greybox li:hover {
+    background: #ffffff;
+    border: 1px solid #aaaaaa;
+    padding: 4px 6px 4px 6px;
+    margin: 0px 0px 4px 0px;
+}
+
+ul.menu_destinate {
+    width: 680px;
+    float: left;
+    height: 100px;
+    padding: 0;
+}
+
+.menu_destinate li {
+    float: left;
+    text-align: center;
+    width: 99px;
+}
+
+.menu_destinate li a {
+    background: #F4F4F4;
+    display: inline;
+    border: 1px solid #bbbbbb;
+    margin: 0px 0px 4px 0px;
+    padding: 4px 6px 4px 6px;
+    width: 116px;
+    text-decoration: none;
+    /* Rounded Corners */
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.menu_destinate li a:hover,
+.menu_destinate li a:active {
+    background: #ffffff;
+    border: 1px solid #aaaaaa;
+    padding: 4px 6px 4px 6px;
+    margin: 0px 0px 4px 0px;
+    text-decoration: none;
+}
+
+
+/*round corner*/
+
+.topleft {
+    -moz-border-radius-topleft: 20px;
+    -webkit-border-top-left-radius: 20px;
+    -khtml-border-radius-topleft: 20px;
+    border-top-left-radius: 20px;
+}
+
+.bottomright {
+    -moz-border-radius-bottomright: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+    -khtml-border-radius-bottomright: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.box {
+    float: left;
+    width: 650px;
+    height: 500px;
+    margin: 10px;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.box {
+    /*background-image:-moz-linear-gradient(top, #FAD502, #E89502);*/
+    /*background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FAD502), to(#E89502), color-stop(1,#E89502));*/
+    background: -webkit-linear-gradient(left, rgba(102, 204, 255, 0.3), rgba(153, 204, 255, 0));
+    background: -o-linear-gradient(right, rgba(102, 204, 255, 0.3), rgba(153, 204, 255, 0));
+    background: -moz-linear-gradient(right, rgba(102, 204, 255, 0.3), rgba(153, 204, 255, 0));
+    background: linear-gradient(to right, rgba(102, 204, 255, 0.3), rgba(153, 204, 255, 0));
+}
+
+
+/*round corner end*/
+
+
+/* Generated by Font Squirrel (http://www.fontsquirrel.com) */
+
+
+/*==================== font-face ====================*/
+
+@font-face {
+    font-family: 'proxima_nova_rgbold';
+    src: url('proximanova-bold-webfont.eot');
+    src: url('proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'), url('proximanova-bold-webfont.woff') format('woff'), url('proximanova-bold-webfont.ttf') format('truetype'), url('proximanova-bold-webfont.svg#proxima_nova_rgbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima_nova_rgregular';
+    src: url('proximanova-regular-webfont.eot');
+    src: url('proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'), url('proximanova-regular-webfont.woff') format('woff'), url('proximanova-regular-webfont.ttf') format('truetype'), url('proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
