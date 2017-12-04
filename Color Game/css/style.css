@@ -1,0 +1,63 @@
+    body{
+      text-transform: uppercase;
+      margin: 0;
+    }
+    .heading{
+      text-align: center;
+      background: lightblue;
+      color: white;
+      margin: 0;
+      height: 100px;
+    }
+    .heading p{
+      margin: 0;
+      padding: 10px 0 10px 0;
+    }
+    .heading div{
+      font-size: 1.5em;
+    }
+    .gameButton{
+      margin: -10px 0 0 0;
+      height: 10px;
+      font-size: 10px;
+      font-weight: bold;
+      color: blue;
+      margin: 0 auto;
+      width: 300px;
+    }
+   
+    .gameButton div{
+      display: inline-block;
+      float: left;
+      padding-left: 10px;
+    }
+    .mode{
+      margin-left: 50px;
+      float: right;
+    }
+    #tryAgain{
+      visibility: hidden;
+      color: red;
+      padding-left: 20px;
+    }
+    .active{
+      background: lightblue;
+    }
+    .colorboard{
+      margin-top: 10px;
+      height: 300px;
+      background: #232323;
+    }
+    .card {
+      width: 350px;
+      height: 200px;
+      margin: 5px auto 0;
+      padding-top: 50px;
+    }
+    .card div{
+      border-radius: 10px;
+      margin-left: 10px;
+      display: inline-block;
+      width: 100px;
+      height: 100px;
+    }
