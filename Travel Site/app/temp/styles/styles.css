@@ -430,3 +430,15 @@ img{
   max-width: 100%;
   height: auto;
 }
+
+.large-hero{
+  position: relative;
+}
+
+.large-hero__text-content{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
