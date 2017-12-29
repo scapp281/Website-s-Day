@@ -1,0 +1,64 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+.large-hero{
+  position: relative;
+}
+.large-hero img{
+  width: 100%;
+  height: auto%;
+}
+.large-hero__content{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+header{
+  margin: 20px 20px;
+}
+header a span.logo {
+    font-size: 62px;
+    margin: 80px 0 0 0;
+    color: #fff;
+    display: inline;
+}
+header a span.logo .icon-nois3 {
+    position: relative;
+}
+
+header .switcher {
+    position: absolute;
+    top: 50px;
+    left: 220px;
+}
+header .switcher a {
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 16px;
+    line-height: 20px;
+}
+.brand{
+  margin-left: 50px;
+}
+.icon-nois3 {
+    text-indent: -999999px;
+    position: relative;
+    display: inline-block;
+}
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icon-nois3';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
